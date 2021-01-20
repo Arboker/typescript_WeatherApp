@@ -20,7 +20,7 @@
     "typescript": "^4.1.3",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://github.com/Arboker/typescript_WeatherApp",
+  "homepage": "https://arboker.github.io/typescript_WeatherApp",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
