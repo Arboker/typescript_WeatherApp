@@ -18,7 +18,7 @@
     padding: 25px 25px 5px 25px
 }
 
-.weather_main_date_container:nth-child(3) {
+.weather_main_date_container:nth-child(3), .weather_main_date_container:nth-child(6) {
     margin-right: 0;
 }
 

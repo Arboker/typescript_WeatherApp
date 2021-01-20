@@ -30,7 +30,8 @@ const Forecast: React.FC = () => {
     var yyyy = today.getFullYear();
 
     const loadContent = () => {
-        const url = "https://api.openweathermap.org/data/2.5/forecast?q=" + params.city + "&appid=a7ac1ce283f0e25dc2333628430f7cad";
+        const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+        const url = "https://api.openweathermap.org/data/2.5/forecast?q=" + params.city + "&appid="+API_KEY;
 
         fetch(url)
             .then(response => response.json())

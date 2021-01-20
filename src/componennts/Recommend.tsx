@@ -14,7 +14,8 @@ interface Props {
 const Recommend: React.FC<Props> = (props) => {
     const [data, setData] = useState<IRec[]>([]);
     useEffect(() => {
-        const url = "http://api.openweathermap.org/data/2.5/weather?q=" + props.title + "&appid=a7ac1ce283f0e25dc2333628430f7cad";
+        const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+        const url = "http://api.openweathermap.org/data/2.5/weather?q=" + props.title + "&appid="+API_KEY;
         fetch(url)
             .then(response => response.json())
             .then(data => {
