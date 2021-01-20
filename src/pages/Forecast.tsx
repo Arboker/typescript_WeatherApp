@@ -151,7 +151,7 @@ const Forecast: React.FC = () => {
                                                             // console.log(today.getDate())
                                                             const dayNow = yyyy + "-" + mm + "-" + dd;
                                                             return (
-                                                                <Link to={process.env.PUBLIC_URL+ "/" + params.city + "/" + (list.date).split("-")[2]} className="weather_date_container" key={i}>
+                                                                <Link to={"/" + params.city + "/" + (list.date).split("-")[2]} className="weather_date_container" key={i}>
                                                                     <div key={i}>
                                                                         <span className="weather_date">{list.date === dayNow ? "Today" : formData(list.date)}</span>
 
