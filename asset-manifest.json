@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/typescript_WeatherApp/static/css/main.7a1bbf38.chunk.css",
-    "main.js": "/typescript_WeatherApp/static/js/main.5e3ddf03.chunk.js",
-    "main.js.map": "/typescript_WeatherApp/static/js/main.5e3ddf03.chunk.js.map",
-    "runtime-main.js": "/typescript_WeatherApp/static/js/runtime-main.1a264380.js",
-    "runtime-main.js.map": "/typescript_WeatherApp/static/js/runtime-main.1a264380.js.map",
-    "static/js/2.3f693c02.chunk.js": "/typescript_WeatherApp/static/js/2.3f693c02.chunk.js",
-    "static/js/2.3f693c02.chunk.js.map": "/typescript_WeatherApp/static/js/2.3f693c02.chunk.js.map",
-    "static/js/3.61383e70.chunk.js": "/typescript_WeatherApp/static/js/3.61383e70.chunk.js",
-    "static/js/3.61383e70.chunk.js.map": "/typescript_WeatherApp/static/js/3.61383e70.chunk.js.map",
-    "index.html": "/typescript_WeatherApp/index.html",
-    "static/css/main.7a1bbf38.chunk.css.map": "/typescript_WeatherApp/static/css/main.7a1bbf38.chunk.css.map",
-    "static/js/2.3f693c02.chunk.js.LICENSE.txt": "/typescript_WeatherApp/static/js/2.3f693c02.chunk.js.LICENSE.txt",
-    "static/media/error.ed78222e.png": "/typescript_WeatherApp/static/media/error.ed78222e.png"
+    "main.css": "typescript_WeatherApp/static/css/main.7a1bbf38.chunk.css",
+    "main.js": "typescript_WeatherApp/static/js/main.80d6dcbe.chunk.js",
+    "main.js.map": "typescript_WeatherApp/static/js/main.80d6dcbe.chunk.js.map",
+    "runtime-main.js": "typescript_WeatherApp/static/js/runtime-main.75fa4efc.js",
+    "runtime-main.js.map": "typescript_WeatherApp/static/js/runtime-main.75fa4efc.js.map",
+    "static/js/2.3f693c02.chunk.js": "typescript_WeatherApp/static/js/2.3f693c02.chunk.js",
+    "static/js/2.3f693c02.chunk.js.map": "typescript_WeatherApp/static/js/2.3f693c02.chunk.js.map",
+    "static/js/3.61383e70.chunk.js": "typescript_WeatherApp/static/js/3.61383e70.chunk.js",
+    "static/js/3.61383e70.chunk.js.map": "typescript_WeatherApp/static/js/3.61383e70.chunk.js.map",
+    "index.html": "typescript_WeatherApp/index.html",
+    "static/css/main.7a1bbf38.chunk.css.map": "typescript_WeatherApp/static/css/main.7a1bbf38.chunk.css.map",
+    "static/js/2.3f693c02.chunk.js.LICENSE.txt": "typescript_WeatherApp/static/js/2.3f693c02.chunk.js.LICENSE.txt",
+    "static/media/error.ed78222e.png": "typescript_WeatherApp/static/media/error.ed78222e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a264380.js",
+    "static/js/runtime-main.75fa4efc.js",
     "static/js/2.3f693c02.chunk.js",
     "static/css/main.7a1bbf38.chunk.css",
-    "static/js/main.5e3ddf03.chunk.js"
+    "static/js/main.80d6dcbe.chunk.js"
   ]
 }
