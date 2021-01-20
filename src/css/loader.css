@@ -1,0 +1,44 @@
+.loader_block {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.svg_loader {
+    animation: 2s linear infinite loader;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg)
+    }
+}
+
+@keyframes circleAnim {
+    0%, 25% {
+        stroke-dashoffset: 217;
+        transform: rotate(0);
+    }
+    50%, 75% {
+        stroke-dashoffset: 56;
+        transform: rotate(45deg);
+    }
+    100% {
+        stroke-dashoffset: 217;
+        transform: rotate(360deg);
+    }
+}
+
+.circle_loader {
+    fill: transparent;
+    stroke: #1b4de4;
+    stroke-width: 6;
+    stroke-dasharray: 217;
+    stroke-linecap: round;
+    transform-origin: 50% 50%;
+    stroke-dashoffset: 75;
+    animation: 2.2s ease-in-out infinite both circleAnim;
+}

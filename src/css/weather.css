@@ -1,0 +1,114 @@
+.weather_main_container {
+    box-shadow: var(--box-shadow);
+    border-radius: 6px;
+    width: 70%;
+    background-color: white;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.weather_main_date_container {
+    text-align: center;
+    margin: 20px 10px 0 0;
+    cursor: pointer;
+    width: calc(1/3*100% - (1 - 1/3)*10px);
+    box-sizing: border-box;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    padding: 25px 25px 5px 25px
+}
+
+.weather_main_date_container:nth-child(3) {
+    margin-right: 0;
+}
+
+.weather_main_block {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px 20px 20px;
+}
+
+.title_main_weather {
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+}
+
+.weather_section {
+    background: linear-gradient(180deg, rgba(27, 77, 228, 1) 0%, rgba(46, 89, 218, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.info_weather {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.weather_main_title {
+    color: rgb(24, 24, 24);
+}
+
+.weather_description {
+    color: rgb(34, 34, 34);
+    margin-top: 5px;
+}
+
+.weather_info_container__sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_header_weather {
+    font-size: 24px;
+    color: #efefef;
+    padding: 15px;
+}
+
+.weather_header {
+    margin-bottom: 30px;
+}
+
+.error_weather {
+    margin: auto;
+}
+
+.footer_margin {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .weather_main_container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .weather_main_container {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .weather_main_date_container {
+        width: calc(1/2*100% - (1 - 1/2)*10px);
+    }
+    .weather_main_date_container:nth-child(2n) {
+        margin-right: 0;
+    }
+    .weather_main_date_container:nth-child(3) {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .weather_main_date_container {
+        width: calc(1*100% - (1 - 1)*10px);
+    }
+    .weather_main_date_container:nth-child(1n) {
+        margin-right: 0;
+    }
+}
