@@ -12,9 +12,9 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <Switch>
-        <Route exact path="typescript_WeatherApp/"><Main /></Route>
-        <Route path={"typescript_WeatherApp"+"/forecast/:city"} children={<Forecast />} />
-        <Route path={"typescript_WeatherApp"+"/:city/:day"} children={<Weather />} />
+        <Route exact path="/"><Main /></Route>
+        <Route path="/forecast/:city" children={<Forecast />} />
+        <Route path="/:city/:day" children={<Weather />} />
         <Route component={NotFound} />
       </Switch>
     </div>

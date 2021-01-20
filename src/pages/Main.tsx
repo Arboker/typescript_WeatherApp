@@ -20,7 +20,7 @@ const Main: React.FC = () => {
 
     return (
         <div className="main_section">
-            <Link to="typescript_WeatherApp/" className="weather_header weather_header_padding"><span className="title_header_weather">WeatherApp</span></Link>
+            <Link to="/" className="weather_header weather_header_padding"><span className="title_header_weather">WeatherApp</span></Link>
             <div className="main_seatch_rec_block">
                 <div className="search_main_container">
                     <input type="text" className="search_input" placeholder="City" onChange={textChange}

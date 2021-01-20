@@ -59,7 +59,7 @@ const Weather: React.FC = () => {
 
     return (
         <div className="weather_section">
-            <Link to="typescript_WeatherApp/" className="weather_header"><span className="title_header_weather">WeatherApp</span></Link>
+            <Link to="/" className="weather_header"><span className="title_header_weather">WeatherApp</span></Link>
 
             <div className="weather_main_container">
                 <h2 className="title_main_weather">{params.city}</h2>
