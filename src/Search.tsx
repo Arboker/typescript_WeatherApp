@@ -15,7 +15,7 @@ const Search: React.FC<Props> = (props) => {
 
     const handleKeypress = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.code === "Enter") {
-            history.push("/forecast/"+value)
+            history.push(process.env.PUBLIC_URL+"/forecast/"+value)
             history.go(0)
         }
     }

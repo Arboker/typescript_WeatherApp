@@ -14,13 +14,13 @@ const Main: React.FC = () => {
 
     const handleKeypress = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.code === "Enter") {
-            history.push('/forecast/' + value)
+            history.push(process.env.PUBLIC_URL+'/forecast/' + value)
         }
     }
 
     return (
         <div className="main_section">
-            <Link to="/" className="weather_header weather_header_padding"><span className="title_header_weather">WeatherApp</span></Link>
+            <Link to={process.env.PUBLIC_URL+"/"} className="weather_header weather_header_padding"><span className="title_header_weather">WeatherApp</span></Link>
             <div className="main_seatch_rec_block">
                 <div className="search_main_container">
                     <input type="text" className="search_input" placeholder="City" onChange={textChange}

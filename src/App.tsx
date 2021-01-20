@@ -12,9 +12,9 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <Switch>
-        <Route exact path="/"><Main /></Route>
-        <Route path="/forecast/:city" children={<Forecast />} />
-        <Route path="/:city/:day" children={<Weather />} />
+        <Route exact path={process.env.PUBLIC_URL+"/"}><Main /></Route>
+        <Route path={process.env.PUBLIC_URL+"/forecast/:city"} children={<Forecast />} />
+        <Route path={process.env.PUBLIC_URL+"/:city/:day"} children={<Weather />} />
         <Route component={NotFound} />
       </Switch>
     </div>
