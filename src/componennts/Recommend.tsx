@@ -15,7 +15,7 @@ const Recommend: React.FC<Props> = (props) => {
     const [data, setData] = useState<IRec[]>([]);
     useEffect(() => {
         const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
-        const url = "http://api.openweathermap.org/data/2.5/weather?q=" + props.title + "&appid="+API_KEY;
+        const url = "https://api.openweathermap.org/data/2.5/weather?q=" + props.title + "&appid="+API_KEY;
         fetch(url)
             .then(response => response.json())
             .then(data => {
@@ -38,7 +38,7 @@ const Recommend: React.FC<Props> = (props) => {
                             </div>
 
                             <div>
-                                <img src={`http://openweathermap.org/img/wn/${item.weather.icon.slice(0, -1)}d@2x.png`} alt="" />
+                                <img src={`https://openweathermap.org/img/wn/${item.weather.icon.slice(0, -1)}d@2x.png`} alt="" />
                             </div>
 
 
